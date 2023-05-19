@@ -5,9 +5,7 @@ public class MyOptions extends JPanel {
 
     public MyOptions() {
         super();
-        for (int i = 0; i < 2; i++) {
-            System.out.println("Hallo");
-        }
+        // текст для коммита
         add(new JCheckBox("Итоги"));
     }
 }
